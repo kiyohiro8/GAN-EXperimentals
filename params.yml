@@ -1,0 +1,22 @@
+
+data_dir: ./data/
+dataset_name: agaric
+
+max_epoch: 3000
+interval: 10
+batch_size: 32
+num_accumulation: 1
+image_size: 128
+on_memory: False
+latent_dim: 128
+
+learning_rate: 0.0001
+use_cr: True
+start_cr: 100
+use_sn_gen: True
+use_ema: False
+unet_dis: False
+
+base_channels: 64
+
+num_tiles: 8
